@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Mukta+Vaani:300,400,500,600,700|Open+Sans:300,400,600,700,800,900" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+
+	<!-- Bootstrap Select CSS -->
+	<link rel="stylesheet" href="css/components/bs-select.css" type="text/css" />
+
+	<!-- car Specific Stylesheet -->
+
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="demos/car/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors.php?color=FF4000" type="text/css" />
+
+	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+
+	<link rel="stylesheet" type="text/css" href="css/custom.css" type="text/css">
+
+	<!-- Document Title
+	============================================= -->
+	<title>MandomedioTV</title>
+
+	<style>
+		/* Revolution Slider */
+		/*.ares .tp-tab { border: 1px solid #eee; }
+		.ares .tp-tab-content { margin-top: -4px; }
+		.ares .tp-tab-content { padding: 15px 15px 15px 110px; }
+		.ares .tp-tab-image { width: 80px;height: 80px; }*/
+
+		.revo-slider-emphasis-text {
+
+			font-size: 64px;
+
+			font-weight: 700;
+
+			letter-spacing: -1px;
+
+			font-family: 'Raleway', sans-serif;
+
+			padding: 15px 20px;
+
+			border-top: 2px solid #FFF;
+
+			border-bottom: 2px solid #FFF;
+
+		}
+
+
+
+		.revo-slider-desc-text {
+
+			font-size: 20px;
+
+			font-family: 'Lato', sans-serif;
+
+			width: 650px;
+
+			text-align: center;
+
+			line-height: 1.5;
+
+		}
+
+
+
+		.revo-slider-caps-text {
+
+			font-size: 16px;
+
+			font-weight: 400;
+
+			letter-spacing: 3px;
+
+			font-family: 'Raleway', sans-serif;
+
+		}
+
+		.tp-video-play-button { display: none !important; }
+
+
+
+		.tp-caption { white-space: nowrap; }
+	</style>
+
+	<link rel="icon" type="image/png" href="images/mmtvlogo.png">
+
+</head>
+<!--data-loader-html="<img src='images/mmgif.gif' alt='MandoMedio'>"-->
+<body class="stretched side-push-panel"  style="background-color:black !important;" data-loader-timeout="8000" data-loader-html="<img src='images/gifs/preloader.gif' alt='MandoMedio'>">
+
+	<!-- Side Panel Overlay -->
+	<div class="body-overlay"></div>
+
+	<!-- Side Panel -->
+	<div id="side-panel" style="background:black !important;">
+
+		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
+
+		<div class="side-panel-wrap">
+
+			<div class="widget clearfix">
+
+				<a href="index.html"><img src="demos/car/images/mand.jpg"></a>
+				
+				<br>
+				<br>
+				<br>
+				<p style="margin-top:10px; color:white;">Texto descriptivo de contacto</p>
+
+				<div class="widget quick-contact-widget noborder notoppadding clearfix">
+
+					<h4 style="color:white;">Contacto rápido</h4>
+					<div class="quick-contact-form-result"></div>
+					<form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
+						<div class="form-process"></div>
+						<input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Nombre completo" />
+						<input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Correo electrónico" />
+						<textarea class="required sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Mensaje"></textarea>
+						<input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+						<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d nomargin" value="submit">Enviar mensaje</button>
+					</form>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+	
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix" style="background-color:black !important; border-bottom: black !important;">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header dark">
+
+			<div id="header-wrap" >
+
+				<div class="container clearfix ">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo" style="margin-top:8px;" >
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo3.png" style="max-width:250px;"><img class="logoLiveMedium" src="images/logo3.png" style="max-height:55px;"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo3.png" style="max-width:250px;"><img src="images/logo3.png"  class="logoLiveMedium" style="max-height:55px;"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="primary-menu" >
+
+						<ul >
+							<li class="current"><a href="index.html"><div style="color:orange;">Inicio</div></a></li>
+							<li><a href="secciones.html"><div style="color:orange;">Secciones</div></a>
+								<ul>
+									<li><a href="capacitacion.html"><div>Capacitación</div></a></li>
+									<li><a href="empleabilidad.html"><div>Empleabilidad</div></a></li>
+									<li><a href="desarrollo-organizacional.html"><div>Desarrollo Organizacional</div></a></li>
+									<li><a href="coaching.html"><div>Coaching y Liderazgo</div></a></li>
+									<li><a href="evaluacion.html"><div>Evaluación y Selección</div></a></li>
+								</ul>
+							</li>
+							<li><a href="prensa.html"><div style="color:orange;">Prensa</div></a></li>
+							<li><a href="buenas-practicas.html"><div style="color:orange;">Buenas prácticas</div></a>
+								<ul>
+									<li><a href="entrevistas.html"><div>Entrevistas</div></a></li>
+								</ul>
+							</li>
+							<li><a href="somos.html"><div style="color:orange;">Quienes somos</div></a></li>
+							<!--<li><a href="#"><div style="color:orange;">En vivo</div></a></li>-->
+							
+						</ul>
+
+						<!-- Top Cart
+						============================================= -->
+						<div id="top-cart" style="margin-left:50px !important;">
+
+							<a href="#"><img src="images/gifs/BotonParaGif.gif" style="margin-top:-30px;" class="logolive moverLogo" data-toggle="modal" data-target=".bs-example-modal-lg"></a>
+							
+						</div><!-- #top-cart end -->
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+
+
+
+		<section id="slider" class="slider-element slider-parallax revslider-wrap clearfix">
+			<div class="slider-parallax-inner">
+				<!--
+				#################################
+					- THEMEPUNCH BANNER -
+				#################################
+				-->
+				<div id="rev_slider_k_fullwidth_wrapper" class="rev_slider_wrapper fullwidth-container"  style="padding:0px;">
+					<!-- START REVOLUTION SLIDER 5.1.4 fullwidth mode -->
+					<div id="rev_slider_k_fullwidth" class="rev_slider fullwidthbanner" style="display:none;" data-version="5.1.4">
+						<ul>
+							<!-- SLIDE  -->
+							<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/rev/ken-2-thumb.jpg" data-delay="15000"  data-saveperformance="off"  data-title="Bienvenida">
+								<!-- MAIN IMAGE -->
+								<img src="images/background.png"  alt="kenburns6" data-bgposition="center bottom" data-bgpositionend="center top" data-kenburns="on" data-duration="25000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="140" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+								<!-- LAYERS -->
+
+								<!-- LAYER NR. 2 -->
+								<div class="tp-caption ltl tp-resizeme revo-slider-caps-text uppercase"
+								data-x="middle" data-hoffset="0"
+								data-y="top" data-voffset="170"
+								data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 3; color: #333; white-space: nowrap;">Why Choose Canvas?</div>
+
+								<div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+								data-x="middle" data-hoffset="0"
+								data-y="top" data-voffset="185"
+								data-fontsize="['60','50','50','40']"
+								data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 3; color: #333; white-space: nowrap;">Unlimited Possibilities</div>
+
+								<div class="tp-caption ltl tp-resizeme revo-slider-desc-text"
+								data-x="middle" data-hoffset="0"
+								data-y="top" data-voffset="295"
+								data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-lineheight="['30','30','34','26']"
+								data-width="['750','750','480','360']"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-textAlign="center"
+								data-endeasing="Power4.easeIn" style="z-index: 3; color: #333; max-width: 650px; white-space: normal;">Create whatever you require for your Business to bloom with Tons of Customization Possibilities.</div>
+
+								<div class="tp-caption ltl tp-resizeme"
+								data-x="middle" data-hoffset="0"
+								data-y="top" data-voffset="405"
+								data-transform_in="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 3;"><a href="#" class="button button-border button-large button-rounded tright nomargin"><span>Browse</span><i class="icon-angle-right"></i></a></div>
+
+							</li>
+
+							<li class="dark" data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/rev/bg2-thumb.jpg"  data-saveperformance="off"  data-title="Fixed-Size Video">
+								<!-- MAIN IMAGE -->
+								<img src="images/background.png"  alt="kenburns6" data-bgposition="left bottom" data-bgpositionend="right top" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+								<!-- LAYERS -->
+
+								<div class="tp-caption"
+								data-x="['left','left','left','left']" data-hoffset="['20','20','30','30']"
+								data-y="['top','top','top','top']" data-voffset="['130','130','130','130']"
+								data-transform_in="x:0;y:0;z:0;rotationZ:0;scaleX:0.6;scaleY:0.6;skewX:0;skewY:0;s:850;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="850"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-videowidth="['600','500','650','420']"
+								data-videoheight="['340','283','368','238']"
+								data-endeasing="Power4.easeIn"><iframe src='http://player.vimeo.com/video/102501580?title=0&byline=0&portrait=0;api=1' width='600' height='340' style='width:600px;height:340px;border: none !important;'></iframe></div>
+
+								<div class="tp-caption ltl tp-resizeme revo-slider-caps-text uppercase"
+								data-x="['left','left','left','left']" data-hoffset="['675','575','30','30']"
+								data-y="['top','top','top','top']" data-voffset="['165','165','530','430']"
+								data-transform_in="x:140;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="white-space: nowrap;">Need to show Videos?</div>
+
+								<div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
+								data-x="['left','left','left','left']" data-hoffset="['672','572','30','30']"
+								data-y="['top','top','top','top']" data-voffset="['180','180','555','455']"
+								data-fontsize="['56','50','40','30']"
+								data-transform_in="x:140;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="font-size: 56px; white-space: nowrap;">Embedded Videos</div>
+
+								<div class="tp-caption ltl tp-resizeme revo-slider-desc-text tleft"
+								data-x="['left','left','left','left']" data-hoffset="['675','575','30','30']"
+								data-y="['top','top','top','top']" data-voffset="['280','280','655','555']"
+								data-transform_in="x:140;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="max-width: 450px; white-space: normal;">Show off your Youtube or Vimeo Videos in Style with an Autoplay Option.</div>
+
+								<div class="tp-caption ltl tp-resizeme"
+								data-x="['left','left','left','left']" data-hoffset="['675','575','30','30']"
+								data-y="['top','top','top','top']" data-voffset="['385','385','760','630']"
+								data-transform_in="x:140;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:800;e:Power4.easeOutQuad;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn"><a href="#" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Embed Now</span> <i class="icon-angle-right"></i></a></div>
+
+							</li>
+						</ul>
+					</div>
+				</div><!-- END REVOLUTION SLIDER -->
+			</div>
+		</section>
+
+		<!--<div class="container-fluid" style="background-color:black;">
+			<br>
+			<br>-->
+			<!--<button class="btn btn-primary btn-lg icon-live-ondemand" data-toggle="modal" data-target=".bs-example-modal-lg" style="background-color:black; color:orange;">LIVE ON DEMAND</button>-->
+			<!--<br>
+			<br>
+			<center>
+				<a href="#" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span style="color:orange;">VER SEÑAL EN VIVO</span></a>
+			</center>
+		</div>-->
+	
+
+		<div style="margin-top:-200px !important;"> 
+			<div class="row" >
+				<div class="col-lg-1">
+				</div>
+				<div class="col-lg-3" >
+					<h2 style="color:white;">Videos Destacados</h2>
+				</div>
+			</div>
+
+			<div class="dark section nopadding nomargin ohidden" style="height: 480px">
+				<div class="row" style="height: 100%;">
+					<!-- Video 1 -->
+					<div class="col-md-2 nopadding half-screen dark videoplay-on-hover img-hover-wrap">
+						
+							<a href="#">
+								<div class="vertical-middle center" style="z-index: 1">
+									<div class="before-heading uppercase ls1" style="font-size: 14px; font-style: normal; color: #EEE">MandomedioTV</div>
+									<h2 class="nobottommargin ls1">Instructivo Seguridad</h2>
+								</div>
+								<div class="video-wrap">
+									<video id="slide-video-1" poster="images/banners/Testfull.png" preload="auto" loop muted>
+										<source src='images/videos/trailers/instructivo-seguridad.mp4' type='video/mp4' />
+									</video>
+									<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+								</div>
+							</a>
+						
+					</div>
+					<!-- Video 2 -->
+					<div class="col-md-2 nopadding half-screen dark videoplay-on-hover img-hover-wrap">
+						<a href="#">
+							<div class="vertical-middle center" style="z-index: 1">
+								<div class="before-heading uppercase ls1" style="font-size: 14px; font-style: normal; color: #EEE">MandomedioTV</div>
+								<h2 class="nobottommargin ls1">Summit Capital</h2>
+							</div>
+							<div class="video-wrap">
+								<video id="slide-video-2" poster="images/banners/Testfull.png" preload="auto" loop muted>
+									<source src='images/videos/trailers/summit-capital.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background: rgba(0,0,0,0.4);"></div>
+							</div>
+						</a>
+					</div>
+					<!-- Video 3 -->
+					<div class="col-md-2 nopadding half-screen dark videoplay-on-hover img-hover-wrap">
+						<a href="#">
+							<div class="vertical-middle center" style="z-index: 1">
+								<div class="before-heading uppercase ls1" style="font-size: 14px; font-style: normal; color: #EEE">MandomedioTV</div>
+								<h2 class="nobottommargin ls1">Wellness</h2>
+							</div>
+							<div class="video-wrap">
+								<video id="slide-video-3" poster="images/banners/coaching.jpg" preload="auto" loop muted>
+									<source src='images/videos/trailers/wellness.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background: rgba(0,0,0,0.4);"></div>
+							</div>
+						</a>
+					</div>
+					<!-- Video 4 -->
+					<div class="col-md-2 nopadding half-screen dark videoplay-on-hover img-hover-wrap">
+						<a href="#">
+							<div class="vertical-middle center" style="z-index: 1">
+								<div class="before-heading uppercase ls1" style="font-size: 14px; font-style: normal; color: #EEE">MandomedioTV</div>
+								<h2 class="nobottommargin ls1">WorkShop</h2>
+							</div>
+							<div class="video-wrap">
+								<video id="slide-video-4" poster="images/banners/empleabilidad.jpg" preload="auto" loop muted>
+									<source src='images/videos/trailers/workshop.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 nopadding half-screen dark videoplay-on-hover img-hover-wrap">
+						<a href="#">
+							<div class="vertical-middle center" style="z-index: 1">
+								<div class="before-heading uppercase ls1" style="font-size: 14px; font-style: normal; color: #EEE">MandomedioTV</div>
+								<h2 class="nobottommargin ls1">Próximamente</h2>
+							</div>
+							<div class="video-wrap">
+								<video id="slide-video-4" poster="images/banners/evaluacion.jpg" preload="auto" loop muted>
+									<source src='images/videos/trailers/comingsoon.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 nopadding half-screen dark videoplay-on-hover img-hover-wrap">
+						<a href="#">
+							<div class="vertical-middle center" style="z-index: 1">
+								<div class="before-heading uppercase ls1" style="font-size: 14px; font-style: normal; color: #EEE">MandomedioTV</div>
+								<h2 class="nobottommargin ls1">Próximamente</h2>
+							</div>
+							<div class="video-wrap">
+								<video id="slide-video-4" poster="images/banners/tecnologiasempre.jpg" preload="auto" loop muted>
+									<source src='images/videos/trailers/comingsoon.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+							</div>
+						</a>
+					</div>
+					
+				</div>
+			</div> <!-- Video Gallery end -->
+		</div>
+		<br>
+
+		<div class="row">
+					<div class="col-lg-1">
+					</div>
+					<div class="col-lg-3">
+						<h2 style="color:white;">Secciones</h2>
+					</div>
+				</div>
+
+				<!-- Masonry Thums
+				============================================= -->
+				<div class="row m-0 dark clearfix" data-height-xs="500" data-height-sm="500" data-height-md="350" data-height-lg="350" data-height-xl="350">
+					<a href="#" class="col-md-2 image_fade" style="background: url('images/fondo1.png') no-repeat center center / cover;">
+						<div class="overlay">
+							<div class="text-overlay">
+								<div class="text-overlay-title">
+									<h3>Capacitación</h3>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Ver más &rarr;</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="col-md-2 image_fade p-0" style="background: url('images/fondo7.png') no-repeat center center / cover;">
+						<div class="overlay">
+							<div class="text-overlay">
+								<div class="text-overlay-title">
+									<h3>Empleabilidad</h3>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Ver más &rarr;</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="col-md-2 image_fade p-0" style="background: url('images/fondo4.png') no-repeat center center / cover;">
+						<div class="overlay">
+							<div class="text-overlay">
+								<div class="text-overlay-title">
+									<h3>Desarrollo Organizacional</h3>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Ver más &rarr;</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="col-md-2 image_fade p-0" style="background: url('images/fondo5.png') no-repeat center center / cover;">
+						<div class="overlay">
+							<div class="text-overlay">
+								<div class="text-overlay-title">
+									<h3>Evaluación y Selección</h3>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Ver más &rarr;</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="col-md-2 image_fade p-0" style="background: url('images/fondo2.png') no-repeat center center / cover;">
+						<div class="overlay">
+							<div class="text-overlay">
+								<div class="text-overlay-title">
+									<h3>Coaching y Liderazgo</h3>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Ver más &rarr;</span>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="col-md-2 image_fade p-0" style="background: url('demos/car/images/mandomedio/desarrollo-organizacional.jpg') no-repeat center center / cover;">
+						<div class="overlay">
+							<div class="text-overlay">
+								<div class="text-overlay-title">
+									<h3>Buenas prácticas</h3>
+								</div>
+								<div class="text-overlay-meta">
+									<span>Ver más &rarr;</span>
+								</div>
+							</div>
+						</div>
+					</a>
+
+				</div>
+				<br>
+
+
+		<div class="row">
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-3">
+				<h2 style="color:white;">Videos Destacados</h2>
+			</div>
+		</div>
+
+		<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel portfolio-notitle portfolio-nomargin footer-stick carousel-widget" data-margin="0" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
+
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo1.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=H64SB3gCw0Y" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Programa Plataforma MandoMedio</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo2.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=XL7Ji1dp2Ak" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Entrevista Rodrigo Correa en Hotel NOI</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo3.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=sGZyfr-xKUE" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Saludo Navidad</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo4.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=QDjC7eQsfZg" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Ilia González Jefa de Recursos Humanos</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo5.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=qEEeJRFWeFc" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Cultura de Seguridad Mandomedio</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo6.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=ka580DCIFco" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Entrevista Exclusiva Tonka Tomicic</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo7.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=kRS5HPGAWgw" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Summit de Capital Humano</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo8.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=lpXbEKTLB_A" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">WARM UP Programa Hotel Icon Canal108</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo9.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="https://www.youtube.com/watch?v=l2D5sd_l4eQ" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Evento SOCOFAR</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+		</div><!-- .portfolio-carousel end -->
+
+		<br>
+		<br>
+
+
+		<div class="row">
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-3">
+				<h2 style="color:white;">Capacitación</h2>
+			</div>
+		</div>
+
+
+
+
+		<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel portfolio-notitle portfolio-nomargin footer-stick carousel-widget" data-margin="0" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
+
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo5.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/capacitacion1.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Cultura de Seguridad</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo15.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/capacitacion2.mp4" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Instructivo de Seguridad</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo18.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo13.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo14.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo15.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+		</div><!-- .portfolio-carousel end -->
+
+
+		<br>
+		<br>
+		
+
+		<div class="row">
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-3">
+				<h2 style="color:white;">Desarrollo Organizacional</h2>
+			</div>
+		</div>
+
+
+
+
+		<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel portfolio-notitle portfolio-nomargin footer-stick carousel-widget" data-margin="0" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
+
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo23.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/desarrollo-organizacional1.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Evento Correos Chile Fin de año</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo5.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/desarrollo-organizacional2.mp4" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Evento IODA 2018</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo1.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/desarrollo-organizacional3.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Entrevista Banco Santander</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo13.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo14.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo15.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+		</div><!-- .portfolio-carousel end -->
+
+
+		<br>
+		<br>
+
+		<div class="row">
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-3">
+				<h2 style="color:white;">Coaching y Liderazgo</h2>
+			</div>
+		</div>
+
+
+
+
+
+		<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel portfolio-notitle portfolio-nomargin footer-stick carousel-widget" data-margin="0" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
+
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo5.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/coaching1.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Integramédica</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo15.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo1.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo5.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo15.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo1.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo2.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- .portfolio-carousel end -->
+		<br>
+		<br>
+
+		<div class="row">
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-3">
+				<h2 style="color:white;">Evaluación y Selección</h2>
+			</div>
+		</div>
+
+
+
+
+
+		<div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel portfolio-notitle portfolio-nomargin footer-stick carousel-widget" data-margin="0" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
+
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo1.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/evaluacion1.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Evaluación de Potencial</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo2.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/evaluacion-seleccion1.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">BUPA Integramédica</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo5.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/evaluacion-seleccion2.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Wellnes Organizacional</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo4.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo5.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo6.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="oc-item">
+				<div class="iportfolio">
+					<div class="portfolio-image">
+						<a href="#">
+							<img src="images/fondo7.png" style="height:250px;">
+						</a>
+						<div class="portfolio-overlay">
+							<a href="images/videos/trailers/comingsoon.mp4" class="left-icon" data-lightbox="iframe" style="background-color:black;"><i class="icon-line-play"></i></a>
+							<a href="#" class="right-icon" style="background-color:black;"><i class="icon-line-ellipsis"></i></a>
+						</div>
+					</div>
+					<div class="portfolio-desc" style="background-color:black !important;">
+						<h3><a href="#" style="color:orange;">Próximamente</a></h3>
+						<span><a href="#" style="color:orange;">Ver más</a></span>
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- .portfolio-carousel end -->
+
+		<br>
+		<br>
+		<br>
+
+		<br>
+		<br>
+
+		
+
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="background-color:black;">
+			<div class="modal-dialog modal-lg" style="background-color:black;">
+				<div class="modal-body" style="background-color:black;">
+					<div class="modal-content" style="background-color:black;">
+						<br>
+						<br>
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:white;">&times;</button>
+						<br>
+						<br>
+						<br>
+						<br>
+						<!--<center><h2 style="color:orange;">Live MandoMedioTV</h2></center>-->
+						<center><img src="images/mand.jpg" style="width:400px; height:203px;"></center>
+						<br>
+						<br>
+						
+						<div class="modal-body">
+							<iframe style="width:100%;" height="450" src="https://www.youtube.com/embed/ss4H8vlng3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark noborder" style="background-color: black;">
+
+			<div class="container-fluid clearfix">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix" style="padding: 30px;">
+
+					<div class="row clearfix">
+						<div class="col-lg-6">
+							<div class="col_one_fourth">
+								<div class="widget widget_links clearfix">
+									<h4>MandoMedioTV</h4>
+									<ul>
+										<li><a href="#">Quienes Somos</a></li>
+										<li><a href="#">Contacto</a></li>
+										<li><a href="#">Inscríbete</a></li>
+										<li><a href="#">Suscríbete</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col_one_fourth">
+								<div class="widget widget_links clearfix">
+									<h4>Secciones</h4>
+									<ul>
+										<li><a href="#">Capacitación</a></li>
+										<li><a href="#">Empleabilidad</a></li>
+										<li><a href="#">Desarrollo Organizacional</a></li>
+										<li><a href="#">Coaching y Liderazgo</a></li>
+										<li><a href="#">Evaluación y Selección</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col_one_fourth">
+								<div class="widget widget_links clearfix">
+									<h4>Contáctanos</h4>
+									<ul>
+										<li>
+											<p>Av. Nueva Providencia 1901 / Piso 3 <br> Providencia, Santiago de Chile. <br> +562 2834 4600</p>
+										</li>
+										<li>
+											<p>Carrera 11ª #93-52 Of. 304 <br> Edificio Torre 93. Bogotá, Colombia. <br> (571) 300 4627 - 4672027 - 4660964</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col_one_fourth col_last">
+								<div class="widget widget_links clearfix">
+									<br>
+									<br>
+									<ul>
+										<li>
+											<p>Calle Amador Merino Reyna 465 <br> Of. 601 – A. San Isidro, Lima, Perú. <br> (511) 626 8484</p>
+										</li>
+										<li>
+											<p>Av. Lázaro Cárdenas 300 <br> Col. Esperanza. C.P. 34080. <br> Durango. Dgo. México. <br> (521) 618 1548107</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--<div class="col_one_fourth col_last">
+								
+							</div>-->
+
+
+						</div>
+
+						<div class="col-lg-1">
+							<div class="widget widget_links clearfix">
+									<h4>RR.SS.</h4>
+						
+										<ul>
+											<li>
+												<a href="https://www.facebook.com/Mandomediotv-540749786349492/" class="social-icon si-dark si-facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://cl.linkedin.com/company/mandomedio-com" class="social-icon si-dark si-linkedin">
+													<i class="icon-linkedin"></i>
+													<i class="icon-linkedin"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://www.instagram.com/mandomediotv/" class="social-icon si-dark si-instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+											</li>
+											<li>
+												<a href="https://www.youtube.com/channel/UCWCo8n014yQco9gbyWWKoKw" class="social-icon si-dark si-youtube">
+													<i class="icon-youtube"></i>
+													<i class="icon-youtube"></i>
+												</a>
+											</li>
+										</ul>
+					
+								</div>
+						</div>
+
+						<div class="col-lg-4 fright tright col_last">
+
+							<img src="demos/car/images/mand.jpg" style="width:230px; height:120px;">
+							<br>
+							<br>
+							<div style="color: white">
+								<span style="color:white;">&copy; MandoMedioTV. Todos los derechos reservados.</span><div class="clear"></div>
+								<p style="margin-top: 10px; color:white;">MandomedioTV es el canal oficial de <a href="http://www.mandomedio.com"><img src="images/mandomedioglobal.png"></a></p>
+							</div>
+
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- Contact Button
+	============================================= -->
+	<!--<div id="contact-me" data-toggle="modal" data-target=".bs-example-modal-lg" style="width:150px; height:70px;"><img src="images/gifs/live.gif"></div>-->
+
+	<!-- Contact Button
+	============================================= -->
+	<!--<div id="contact-me" class="icon-line-mail side-panel-trigger bgcolor"></div>-->
+
+	<!-- Contact Button
+	============================================= -->
+	<div id="contact-me" class="icon-line-mail side-panel-trigger bgcolor"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="demos/car/js/360rotator.js"></script>
+
+	<!-- Bootstrap Select Plugin -->
+	<script src="js/components/bs-select.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<!-- Photograph Hover Plugin
+	============================================= -->
+	<script src="js/hover3d.js"></script>
+
+	<script>
+
+		var tpj=jQuery;
+		tpj.noConflict();
+
+		tpj(document).ready(function() {
+
+			var apiRevoSlider = tpj('#rev_slider_k_fullwidth').show().revolution(
+			{
+				sliderType:"standard",
+				sliderLayout:"fullwidth",
+				delay:9000,
+				navigation: {
+					arrows:{enable:true}
+				},
+				responsiveLevels:[1240,1024,778,480],
+				visibilityLevels:[1240,1024,778,480],
+				gridwidth:[1240,1024,778,480],
+				gridheight:[600,768,960,720],
+			});
+
+			apiRevoSlider.bind("revolution.slide.onloaded",function (e) {
+				setTimeout( function(){ SEMICOLON.slider.sliderParallaxDimensions(); }, 400 );
+			});
+
+			apiRevoSlider.bind("revolution.slide.onchange",function (e,data) {
+				SEMICOLON.slider.revolutionSliderMenu();
+			});
+
+		});
+
+		// Video on play on hover
+		jQuery(document).ready(function($){
+			$('.videoplay-on-hover').hover( function(){
+				if( $(this).find('video').length > 0 ) {
+					$(this).find('video').get(0).play();
+					$('#slide-video-1').hidden();
+				}
+			}, function(){
+				if( $(this).find('video').length > 0 ) {
+					$(this).find('video').get(0).pause();
+					$(this).find('video').get(0).currentTime = 0;
+					$('#slide-video-1').show();
+
+				}
+			});
+
+		});
+
+		$(document).ready(function() {
+		    $('.overlay').mouseout(function() {
+		    	$('#imagenVideo').get(0).currentTime = 0;
+		    });
+		});
+
+
+
+		// Hover Script
+		jQuery(".img-hover-wrap").hover3d({
+			selector: ".img-hover-card",
+			shine: false,
+		});
+
+	</script>
+
+
+
+	
+
+</body>
+</html>
